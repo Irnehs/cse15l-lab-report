@@ -25,13 +25,11 @@ where XX should be replaced by the unique letters in your course account's usern
 
 4. When prompted, enter your password.
    Note: It will not show you your password as you type, dont worry!
-   The prompt will look similar to this:
-   *IMAGE*
    
 5. If the password prompt reappears, you have inputted the wrong pass word and must re-enter your correct password.
    
    Otherwise, you will be greated with a prompt resembling the following:
-   *IMAGE*
+   ![Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/ssh.png?raw=true)
    
 6. Congrats! You have successfully established a remote connection to the computer 😄
 
