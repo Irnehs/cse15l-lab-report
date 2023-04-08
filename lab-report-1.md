@@ -14,7 +14,7 @@ You have successfully installed VsCode! 😄
 
 ## Remotely Connecting ##
 1. Open up VSCode and open a terminal.
-2. Make sure that the terminal type is set to ==git bash==
+2. Make sure that the terminal type is set to `git bash`
 3. Type into the terminal:
 ```
 $ ssh scs15lsp23XX@ieng5.ucsd.edu
@@ -32,7 +32,7 @@ where XX should be replaced by the unique letters in your course account's usern
 6. Congrats! You have successfully established a remote connection to the computer 😄
 
 ## Trying Out A Few Commands ##
-*An example of how steps 1-8 will appear on the terminal:*
+*An example of how steps 1-7 will appear on the terminal:*
 ![Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/try_commands.png?raw=true)
 1. To view a list of all files in your working directory, enter `ls`
    A list of all files in your working directory should display similar to this image:
@@ -50,7 +50,7 @@ where XX should be replaced by the unique letters in your course account's usern
 - `ls -a`
 - `ls <directory>`
 - cat <path>
- 11. To exit, either enter `exit` or press `CTRL-D`
+ 11. To exit the remote connection, either enter `exit` or press `CTRL-D`
 
    
 
