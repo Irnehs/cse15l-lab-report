@@ -1,9 +1,9 @@
-## Logging into a Remote Server ##
+# Logging into a Remote Server #
 *Before starting, ensure that you know the username and password to your course-specific account*
 
 *If you don't know your username, look it up using your AD login with [this tool](https://sdacs.ucsd.edu/~icc/index.php).*
 *If you have not used this username before, or if you forgot your password, follow [this tutorial on resetting your password](https://drive.google.com/file/d/17IDZn8Qq7Q0RkYMxdiIR0o6HJ3B5YqSW/view?usp=share_link).*
- # Installing VScode #
+## Installing VScode ##
 1. Go to the [Visual Studio Code website](https://code.visualstudio.com/) and
 follow the instructions to download and install it on your computer.
 2. Once you have finished the installation, you should open up a window that looks like
@@ -12,7 +12,7 @@ follow the instructions to download and install it on your computer.
 You have successfully installed VsCode! 😄
       
 
-# Remotely Connecting #
+## Remotely Connecting ##
 1. Open up VSCode and open a terminal.
 2. Make sure that the terminal type is set to ==git bash==
 3. Type into the terminal:
@@ -31,7 +31,7 @@ where XX should be replaced by the unique letters in your course account's usern
    
 6. Congrats! You have successfully established a remote connection to the computer 😄
 
-# Trying Out A Few Commands #
+## Trying Out A Few Commands ##
 *An example of how steps 1-8 will appear on the terminal:*
 ![Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/try_commands.png?raw=true)
 1. To view a list of all files in your working directory, enter `ls`
