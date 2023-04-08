@@ -14,9 +14,8 @@ You have successfully installed VsCode! 😄
 
 # Remotely Connecting #
 1. Open up VSCode and open a terminal as shown below:
-*IMAGE*
+[Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/new_terminal.png?raw=true)
 2. Make sure that the terminal type is set to ==git bash==
-*IMAGE*
 3. Type into the terminal:
 ```
 $ ssh scs15lsp23XX@ieng5.ucsd.edu
