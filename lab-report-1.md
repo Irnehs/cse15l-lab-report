@@ -13,8 +13,7 @@ You have successfully installed VsCode! 😄
       
 
 # Remotely Connecting #
-1. Open up VSCode and open a terminal as shown below:
-![Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/new_terminal.png?raw=true)
+1. Open up VSCode and open a terminal.
 2. Make sure that the terminal type is set to ==git bash==
 3. Type into the terminal:
 ```
@@ -33,12 +32,25 @@ where XX should be replaced by the unique letters in your course account's usern
 6. Congrats! You have successfully established a remote connection to the computer 😄
 
 # Trying Out A Few Commands #
+*An example of how steps 1-8 will appear on the terminal:*
+![Image]
 1. To view a list of all files in your working directory, enter `ls`
    A list of all files in your working directory should display similar to this image:
    *IMAGE*
    
    *Note: You may have different files within your current directory but the format should be the same*
-2. Type `cd Documents` to change directory in into Documents.
-3. To view a list of all files
+2. To view your current working directory, enter `pwd`.
+3. To change directories into perl5, enter `cd perl5`
+4. To list all files in perl5 with additional information, enter `ls -lat`
+5. To go back up a directory, enter `cd`
+6. To copy a file from the `public` cs15lsp23 account, enter
+   `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
+8. To view the contents of `hello.txt`, enter `cat ~/hello.txt`
+10. Play around with other commands such as:
+- `ls -a`
+- `ls <directory>`
+- cat <path>
+ 11. To exit, either enter `exit` or press `CTRL-D`
+
    
 
