@@ -33,7 +33,7 @@ where XX should be replaced by the unique letters in your course account's usern
    Otherwise, you will be greated with a prompt resembling the following:
    *IMAGE*
    
-6. Congrats! You have succsesfully established a remote connection to the computer 😄
+6. Congrats! You have successfully established a remote connection to the computer 😄
 
 # Trying Out A Few Commands #
 1. To view a list of all files in your working directory, enter `ls`
@@ -41,5 +41,7 @@ where XX should be replaced by the unique letters in your course account's usern
    *IMAGE*
    
    *Note: You may have different files within your current directory but the format should be the same*
+2. Type `cd Documents` to change directory in into Documents.
+3. To view a list of all files
    
 
