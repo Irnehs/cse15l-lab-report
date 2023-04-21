@@ -52,4 +52,14 @@ class StringServer {
   
 **StringServer Example 1:**
 
-**stringServer Examples 2:**
+![Image](Server_Ex_1.png)
+
+When I enter the url == http://localhost:4000/add-messages?s=hello ==
+
+**StringServer Examples 2:**
+
+![Image](Server_Ex_2.png)
+
+## Part 2 ##
+
+## Part 3 ##
