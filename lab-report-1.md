@@ -47,11 +47,11 @@ where XX should be replaced by the unique letters in your course account's usern
    `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
 8. To view the contents of `hello.txt`, enter `cat ~/hello.txt`
 10. Play around with other commands such as:
-- `ls -a` (shows all files, including hidden ones which start with ```.```
+- `ls -a` (shows all files, including hidden ones which start with ```.```)
  
 ![ls -a](ls_a.png)
 - `ls <directory>`
-- cat <path>
+- `cat <path>`
  11. To exit the remote connection, either enter `exit` or press `CTRL-D`
 
    
