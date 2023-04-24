@@ -1,9 +1,7 @@
 # Lab Report 2 #
 ## Part 1 ##
 
-**StringServer Code:**
-
-StringServer.java:
+***StringServer.java:***
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -75,5 +73,7 @@ The message it appends in this case is ```"world!\n"``` since ```.getQuery()``` 
 ```message``` is then dispayed on the screen through backend code running as a part of the server.
 
 ## Part 2 ##
+*** Failure-Inducing Input***
+
 
 ## Part 3 ##
