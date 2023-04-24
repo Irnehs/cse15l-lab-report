@@ -93,9 +93,11 @@ public void testReverseSize0() {
 
 **Symptom**
 
+![Reverse Symptom](Reverse_Symptom.png)
+
 **Bug**
 
-Before:
+Before Fix:
 ```
 // Returns a *new* array with all the elements of the input array in reversed
 // order
@@ -108,7 +110,7 @@ static int[] reversed(int[] arr) {
 }
 ```
 
-After:
+After Fix:
 ```
   // Returns a *new* array with all the elements of the input array in reversed
   // order
