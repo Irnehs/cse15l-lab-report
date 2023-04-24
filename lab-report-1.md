@@ -34,6 +34,9 @@ where XX should be replaced by the unique letters in your course account's usern
 ## Trying Out A Few Commands ##
 *An example of how steps 1-7 will appear on the terminal:*
 ![Image](https://github.com/Irnehs/cse15l-lab-report/blob/main/try_commands.png?raw=true)
+
+*An example of how* ```ls -a``` *in step 8 will appear on the terminal:*
+ ![ls -a](ls_a.png)
 1. To view a list of all files in your working directory, enter `ls`
    A list of all files in your working directory should display similar to this image:
    *IMAGE*
@@ -48,8 +51,6 @@ where XX should be replaced by the unique letters in your course account's usern
 7. To view the contents of `hello.txt`, enter `cat ~/hello.txt`
 8. Play around with other commands such as:
    - `ls -a` (shows all files, including hidden ones which start with ```.```)
-
-   ![ls -a](ls_a.png)
    - `ls <directory>`
    - `cat <path>`
 
