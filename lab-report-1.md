@@ -45,14 +45,15 @@ where XX should be replaced by the unique letters in your course account's usern
 5. To go back up a directory, enter `cd`
 6. To copy a file from the `public` cs15lsp23 account, enter
    `cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/`
-8. To view the contents of `hello.txt`, enter `cat ~/hello.txt`
-10. Play around with other commands such as:
+7. To view the contents of `hello.txt`, enter `cat ~/hello.txt`
+8. Play around with other commands such as:
 - `ls -a` (shows all files, including hidden ones which start with ```.```)
  
 ![ls -a](ls_a.png)
 - `ls <directory>`
 - `cat <path>`
- 11. To exit the remote connection, either enter `exit` or press `CTRL-D`
+
+9. To exit the remote connection, either enter `exit` or press `CTRL-D`
 
    
 
