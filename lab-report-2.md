@@ -73,7 +73,52 @@ The message it appends in this case is ```"world!\n"``` since ```.getQuery()``` 
 ```message``` is then dispayed on the screen through backend code running as a part of the server.
 
 ## Part 2 ##
-*** Failure-Inducing Input***
+**Failure-Inducing Input**
+```
+@Test 
+public void testReverseSize2() {
+    int[] input1 = { 3 , 4 };
+    assertArrayEquals(new int[]{ 4, 3}, ArrayExamples.reversed(input1));
+}
+```
 
+**Non-Failure-Inducing Input**
+```
+@Test
+public void testReverseSize0() {
+    int[] input1 = {};
+    assertArrayEquals(new int[0], ArrayExamples.reversed(input1));
+}
+```
+
+**Symptom**
+
+**Bug**
+
+Before:
+```
+// Returns a *new* array with all the elements of the input array in reversed
+// order
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+}
+```
+
+After:
+```
+  // Returns a *new* array with all the elements of the input array in reversed
+  // order
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+}
+```
 
 ## Part 3 ##
