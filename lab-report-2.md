@@ -59,7 +59,7 @@ In this case, the query is formatted correctly so it appends the message to add 
 The message it appends in this case is ```"hello\n"``` since ```.getQuery()``` returns the String ```"s=hello"```. It then returns the updated ```message``` which is now equal to ```"hello\n"```. 
 ```message``` is then dispayed on the screen through backend code running as a part of the server.
 
-**StringServer Examples 2:**
+**StringServer Example 2:**
 
 ![Image](Server_Ex_2.png)
 
@@ -124,3 +124,5 @@ static int[] reversed(int[] arr) {
 ```
 
 ## Part 3 ##
+
+Something I learned in lab during Week 2 and Week 3 was how to create a server. With the starter code we were given, I now feel comfortable using the ```handleRequest()``` method to write a handler that does a variety of things based on the path and query of a given URL. Going forward, I feel confident in setting up a server to deal with more advanced paths and queries than the scope of this assignment, and I'm interested in seeing how I can set up my own server to remotely access files and control applications because it's something that the on-campus lab I work at wants to be able to do.
