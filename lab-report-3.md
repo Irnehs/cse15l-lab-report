@@ -201,7 +201,7 @@ https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-r
 
 ## Find by size: `find [dir] -size [+/-][number][size char]`
 
-https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
+Source: https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
 
 Example 1:
 
@@ -216,7 +216,7 @@ Example 1:
 ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ./technical/government/Gen_Account_Office/d01591sp.txt
 ```
-
+In this example, I searched for all files greate than 200kB. This is useful because sometimes you don't know what file you're looking for, but you know it has to be a large file. Alternatively, it could also be useful in helping you find large files so you can see which you don't use and delete them to free up storage space.
 
 Example 2:
 
@@ -241,9 +241,11 @@ Example 2:
 ./technical/plos/pmed.0020226.txt
 ```
 
+In this example, I looked up all files less than 5 blocks (where 1 block is 512 bytes). This could be useful to help you find small files or empty files and delete them or consolidate their contents.
+
 ## Find with or: `find [dir] [condition 1] -or [condition 2]`
 
-https://math2001.github.io/article/bashs-find-command/
+Source: https://math2001.github.io/article/bashs-find-command/
 
 Example 1:
 
