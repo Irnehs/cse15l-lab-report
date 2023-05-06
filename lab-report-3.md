@@ -320,3 +320,14 @@ name "*11.txt"
 ./technical/plos/pmed.0010010.txt
 ./technical/plos/pmed.0020210.txt
 ```
+
+Example 2:
+
+```
+[cs15lsp23iu@ieng6-201]:stringsearch-data:318$ find ./technical/ -ipath "*job*" -or -ipath "*work*"
+./technical/government/Media/Barnes_new_job.txt
+./technical/government/Media/Bias_on_the_Job.txt
+./technical/government/Media/Farm_workers.txt
+./technical/government/Media/Workers_aid_center.txt
+./technical/government/Media/Working_for_Free.txt
+```
