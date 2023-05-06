@@ -327,6 +327,7 @@ name "*11.txt"
 ./technical/plos/pmed.0010010.txt
 ./technical/plos/pmed.0020210.txt
 ```
+This example looks for all files ending in "10.txt" or "11.txt". This could be useful in the case of looking up log files or multiple versions of a .txt file, where you could look up version 10 or 11 in this case by using the command from this example.
 
 Example 2:
 
@@ -338,3 +339,5 @@ Example 2:
 ./technical/government/Media/Workers_aid_center.txt
 ./technical/government/Media/Working_for_Free.txt
 ```
+
+This example looks for all files with "job" or "work" in their path. This could be useful because it allow you to use the command line more like a search terminal, allowing you to look up similar or related terms such as "job" and "work" at the same time if you're not entirely sure what file you're looking for.
