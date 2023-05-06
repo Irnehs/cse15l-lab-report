@@ -195,7 +195,7 @@ Example 2:
 https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
 
 
-## Find by size in kB: `find [dir] -size +[bytes][size char]`
+## Find by size: `find [dir] -size [+/-][number][size char]`
 
 https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
 
