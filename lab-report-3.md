@@ -2,9 +2,11 @@
 *For this assignment, I chose the* `find` *command*
 
 ## Find by path: `find [dir] -path [path]`
+
 Source: https://www.diskinternals.com/linux-reader/bash-find-command/
 
 Example 1:
+
 ```
 [cs15lsp23iu@ieng6-201]:stringsearch-data:270$ find ./technical/ -ipath "*Media*"     
 ./technical/government/Media
@@ -156,6 +158,7 @@ Example 1:
 ```
 
 Example 2:
+
 ```
 [cs15lsp23iu@ieng6-201]:stringsearch-data:275$ find ./technical/ -ipath "*legal*"     
 ./technical/government/About_LSC/LegalServCorp_v_VelazquezDissent.txt
@@ -188,12 +191,16 @@ Example 2:
 ```
 
 ## Find by last modified date: `find [dir] -mtime [+/-][days]`
+
 https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
 
 
 ## Find by size in kB: `find [dir] -size +[bytes][size char]`
+
 https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
+
 Example 1:
+
 ```
 [cs15lsp23iu@ieng6-201]:stringsearch-data:289$ find ./technical/ -size +200k
 ./technical/911report/chapter-13.4.txt
@@ -207,8 +214,9 @@ Example 1:
 ```
 
 Example 2:
+
 ```
-[cs15lsp23iu@ieng6-201]:stringsearch-data:292$ find ./technical/ -size -5  
+[cs15lsp23iu@ieng6-201]:stringsearch-data:302$ find ./technical/ -size -5b 
 ./technical/government/Media/Campaign_Pays.txt
 ./technical/government/Media/Court_Keeps_Judge_From.txt
 ./technical/government/Media/Fire_Victims_Sue.txt
@@ -229,4 +237,5 @@ Example 2:
 ```
 
 ## Find with or: `find [dir] [condition 1] -or [condition 2]`
+
 https://math2001.github.io/article/bashs-find-command/
