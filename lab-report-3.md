@@ -157,6 +157,8 @@ Example 1:
 ./technical/government/Media/water_fees.txt
 ```
 
+This command is useful because it allows you to find all files with paths containing a keyword. In this example, we're searching for all paths contains the word "Media" (case-insensitive), which is useful because it returns all files that likely have something to do with media.
+
 Example 2:
 
 ```
@@ -189,6 +191,8 @@ Example 2:
 ./technical/government/Media/Valley_Needing_Legal_Services.txt
 ./technical/government/Media/less_legal_aid.txt
 ```
+This command is useful because it allows you to find all files with paths containing a keyword. In this example, we're searching for all paths contains the word "Legal" (case-insensitive), which is useful because it returns all of the files it returns are likely have something to do with the law, which would be helpful in looking up legal documents.
+
 
 ## Find by last modified date: `find [dir] -mtime [+/-][days]`
 
@@ -212,6 +216,7 @@ Example 1:
 ./technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ./technical/government/Gen_Account_Office/d01591sp.txt
 ```
+
 
 Example 2:
 
