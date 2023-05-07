@@ -2,6 +2,7 @@
 ## Part 1 ##
 
 ***StringServer.java:***
+
 ```
 import java.io.IOException;
 import java.net.URI;
@@ -46,6 +47,7 @@ class StringServer {
 }
 ```
   
+  
 **StringServer Example 1:**
 
 ![Image](Server_Ex_1.png)
@@ -74,6 +76,7 @@ The message it appends in this case is ```"world!\n"``` since ```.getQuery()``` 
 
 ## Part 2 ##
 **Failure-Inducing Input**
+
 ```
 @Test 
 public void testReverseSize2() {
@@ -82,7 +85,9 @@ public void testReverseSize2() {
 }
 ```
 
+
 **Non-Failure-Inducing Input**
+
 ```
 @Test
 public void testReverseSize0() {
@@ -91,6 +96,7 @@ public void testReverseSize0() {
 }
 ```
 
+
 **Symptom**
 
 ![Reverse Symptom](Reverse_Symptom.png)
@@ -98,6 +104,7 @@ public void testReverseSize0() {
 **Bug**
 
 Before Fix:
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -109,6 +116,7 @@ static int[] reversed(int[] arr) {
 ```
 
 After Fix:
+
 ```
 static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
@@ -118,6 +126,8 @@ static int[] reversed(int[] arr) {
     return newArray;
 }
 ```
+
+This fixed the bug because before the fix, we were editing the input array arr by copying over the the reveresed value of newArray, and then returning that input array. By switching newArray and arr in the loop and the return statement, the input arr is now copied over in reverse order into newArr array, which is then returned correctly.
 
 ## Part 3 ##
 
