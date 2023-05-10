@@ -196,7 +196,7 @@ This command is useful because it allows you to find all files with paths contai
 
 ## Find by last modified date: `find [dir] -mtime [+/-][days]`
 
-https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/
+[https://www.thegeekdiary.com/7-useful-find-command-examples-to-locate-files-to-remove-when-a-filesystem-is-full/](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/)
 
 
 ## Find by size: `find [dir] -size [+/-][number][size char]`
