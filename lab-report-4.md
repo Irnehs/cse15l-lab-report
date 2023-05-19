@@ -9,7 +9,7 @@ Note: Since steps 1-3 have already been completed, these instruction start on st
 ![Logged into ieng6](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/77fc0eca-8e60-4bd2-803e-ced89222d180)
 
 Keys pressed:
-`ssh s15lsp23iu@ieng6.ucsd.edu<enter>`
+`ssh cs15lsp23iu@ieng6.ucsd.edu<enter>`
 
 ## 5. Clone my fork of the repository from my Github account ##
 ![Cloned fork](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/f379d8f2-9069-451f-8c23-71370a7909ba)
