@@ -22,7 +22,7 @@ Keys pressed:
 
 Keys pressed:
 ```
-cd lab7<enter>
+cd l<tab><enter>
 javac -cp ".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar" *.java<enter>
 <up><ctrl-A><right><right><right><right><delete><up><down>
 <ctrl-W>org.junit.runner.JUnitCore L<tab>T<tab><backspace><enter>`
