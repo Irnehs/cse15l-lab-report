@@ -6,7 +6,7 @@ Before starting, this set of instructions assumes that you have already complete
 Note: Since steps 1-3 have already been completed, these instruction start on step 4.
 
 ## 4. Log into ieng6 ##
-![Logged into ieng6](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/77fc0eca-8e60-4bd2-803e-ced89222d180)
+![Logged in](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/03b8bd33-06ae-4fe1-a2d9-b83779b6bbf4)
 
 Keys pressed:
 `ssh cs15lsp23iu@ieng6.ucsd.edu<enter>`
