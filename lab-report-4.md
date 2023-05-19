@@ -37,7 +37,7 @@ vim L<tab>.<tab><enter>
 ?i<enter>
 e
 r2
-:wq
+:wq<enter>
 ```
 
 ## 8. Run the tests, demonstrating that they now succeed ##
