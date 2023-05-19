@@ -18,7 +18,7 @@ Keys pressed:
 `git clo<tab>git@github.com:Irnehs/lab7.git<Enter>`
 
 ## 6. Run the tests, demonstrating that they fail ##
-![Failures demonstrated](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/25149514-7309-480e-bbdb-92eaf3c99090)
+![Failures demonstrated](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/848bc63a-90ec-4ce7-a094-04479a06d741)
 
 Keys pressed:
 ```
