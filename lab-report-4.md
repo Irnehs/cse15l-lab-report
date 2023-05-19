@@ -12,7 +12,7 @@ Keys pressed:
 `ssh cs15lsp23iu@ieng6.ucsd.edu<enter>`
 
 ## 5. Clone my fork of the repository from my Github account ##
-![Cloned fork](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/f379d8f2-9069-451f-8c23-71370a7909ba)
+![Fork cloned](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/cd7c4a92-83bd-45ef-8866-08772048fc94)
 
 Keys pressed:
 `git clo<tab>git@github.com:Irnehs/lab7.git<Enter>`
