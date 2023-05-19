@@ -9,13 +9,17 @@ Note: Since steps 1-3 have already been completed, these instruction start on st
 ![Logged in](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/03b8bd33-06ae-4fe1-a2d9-b83779b6bbf4)
 
 Keys pressed:
-`ssh cs15lsp23iu@ieng6.ucsd.edu<enter>`
+```
+ssh cs15lsp23iu@ieng6.ucsd.edu<enter>
+```
 
 ## 5. Clone my fork of the repository from my Github account ##
 ![Fork cloned](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/cd7c4a92-83bd-45ef-8866-08772048fc94)
 
 Keys pressed:
-`git clo<tab>git@github.com:Irnehs/lab7.git<Enter>`
+```
+git clo<tab>git@github.com:Irnehs/lab7.git<Enter>
+```
 
 ## 6. Run the tests, demonstrating that they fail ##
 ![Failures demonstrated](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/848bc63a-90ec-4ce7-a094-04479a06d741)
