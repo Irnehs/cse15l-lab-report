@@ -5,7 +5,6 @@
 ## Title ##
 
 ### Henri Schulz ###
-###
 Today in **Debugging**
 
 **What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?**
