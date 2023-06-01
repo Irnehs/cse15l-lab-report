@@ -4,7 +4,6 @@
 
 ## Title ##
 
-![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/6062d7ae-d805-4294-8c2b-c7d942532564) 
 ### Henri Schulz ###
 ###
 Today in **Debugging**
