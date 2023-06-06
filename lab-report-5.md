@@ -2,6 +2,8 @@
 
 # Part 1: EdStem Post #
 
+## No Output for System.out.println() ##
+
 ### Henri Schulz ###
 Today in **Debugging**
 
@@ -19,14 +21,13 @@ I'm receving no output, when I instead expect to see the result of all the calcu
 
 The failure-inducing input is `bash calculate.sh add 1 2 sub 5 4 mult 3 1 div 5 2 lcf 10 6 lcf 4 4 lcf 13 7`.
 
-Here are the files I'm using
+Here are the files I'm using:
+
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/77bc07bc-8875-439f-8974-fa0d7b847205)
 
 And here is their structure. Note, all files are stored at the same depth in the same folder:
 
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/ce2866f7-d0c7-4044-8c09-1e6d4385d435)
-
-
 
 ## 1 Answer ##
 #### TA Tom ###
