@@ -33,15 +33,19 @@ Have you tried counting through each iteration of the loop in your main method?
 
 ##### Henri Schulz ####
 Hi TA Tom,
+
 Thank you very much for your help!
 
 I counted through my main method and realized that since I increment i by only once each iteration, I end up with the string "multiply" attempting to be converted to an int by Integer.parseInt(). To fix this, I changed my incrementation amount to 3 for each iteration.
 
 Original code:
+
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/b78829a1-0704-4373-b72f-62139235ad72)
 
 New code:
-![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/d9366667-a61f-4cbe-9aa6-1bbc19720cda)
+
+![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/19181a5e-10c6-4b9a-a0ab-f105476c1ee3)
+
 I changed the increment amount in line 4 from 1 to 3.
 
 
