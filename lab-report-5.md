@@ -39,9 +39,11 @@ Hi TA Tom,
 
 Thank you very much for your help!
 
-I used `echo $1` and found that it was only recognizing the argument "and". I looked back at lecture notes, and saw that I need to place the string I want to pass to Java in quotations since bash uses spaces to split arguments. 
+![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/b37f2dab-4fa1-4c5e-bb64-1cc7b487988c)
 
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/b8961893-c883-4ee4-9659-c3490c2118b2)
+
+I used `echo $1` and found that it was only recognizing the argument "and". I looked back at lecture notes, and saw that I need to place the string I want to pass to Java in quotations since bash uses spaces to split arguments. 
 
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/40b46862-d343-48cd-82a3-228ef46fb45f)
 
