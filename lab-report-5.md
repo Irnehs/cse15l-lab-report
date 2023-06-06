@@ -13,7 +13,7 @@ I'm using a bash terminal in VSCode on a HP Envy x360 running Windows 11 Home th
 
 **Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.**
 
-I'm receving no output, when I instead expect to see the result of all the calculator options.
+I'm receiving no output, when I instead expect to see the result of all the calculator options.
 
 **Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.**
 
@@ -25,6 +25,10 @@ Here are the files I'm using:
 
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/77bc07bc-8875-439f-8974-fa0d7b847205)
 
+![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/f001f68a-600e-4996-8f9d-34498940179d)
+![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/d724da63-1835-41b5-bacd-85d4e7450b21)
+
+
 And here is their structure. Note, all files are stored at the same depth in the same folder:
 
 ![image](https://github.com/Irnehs/cse15l-lab-report/assets/24259613/ce2866f7-d0c7-4044-8c09-1e6d4385d435)
@@ -32,7 +36,7 @@ And here is their structure. Note, all files are stored at the same depth in the
 ## 1 Answer ##
 #### TA Tom ###
 
-Can you check what value is stored in $1?
+How can you check what value being passed to Java?
 
 ##### Henri Schulz ####
 Hi TA Tom,
